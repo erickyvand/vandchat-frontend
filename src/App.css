@@ -1,0 +1,67 @@
+body {
+	background-color: #42423e;
+}
+
+.col-center {
+	float: none;
+	margin: 200px auto;
+}
+
+.show-password {
+	display: flex;
+}
+
+.show-password div {
+	background-color: lightgray;
+	padding: 5px 5px;
+	border: 1px solic lightgray;
+	cursor: pointer;
+}
+
+.border-left-radius {
+	border-radius: 20px 20px 20px 20px;
+}
+
+.border-right-radius {
+	border-radius: 20px 20px 20px 20px;
+}
+
+.list-user-card {
+	cursor: pointer;
+}
+
+.list-user-card:hover {
+	background-color: #dbdadd;
+}
+
+.input-wrap {
+	width: 100%;
+	position: relative;
+	display: flex;
+}
+
+.chat-container-height {
+	height: 570px;
+}
+
+.bg-right {
+	background-color: rgb(86, 142, 151);
+}
+
+.table {
+	background-color: #ebf1ef;
+}
+
+@media screen and (max-width: 760px) {
+	.hide-column {
+		display: none;
+	}
+
+	.maximize-width {
+		width: 100% !important;
+	}
+
+	.mobile-height-body {
+		height: 430px;
+	}
+}
